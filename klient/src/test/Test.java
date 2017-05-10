@@ -14,10 +14,12 @@ import test.TestBeanRemote;
 public class Test {
 
 	public static void main(String[] args) throws Exception {
-		Context context = createRemoteEjbContext("localhost", "8080");
+		View view = new View();
+		view.setVisible(true);
+		/*Context context = createRemoteEjbContext("localhost", "8080");
 		TestBeanRemote remote = (TestBeanRemote)context.lookup("ejb:/gg//TestBean!test.TestBeanRemote");
 		System.out.println(remote.testMe("Hello"));
-		System.out.println(remote.test1("X"));
+		System.out.println(remote.test1("X"));*/
 	}
 
 	/**
@@ -27,7 +29,7 @@ public class Test {
 	 * @return
 	 * @throws NamingException
 	 */
-	private static Context createRemoteEjbContext(String host, String port) throws NamingException {
+	/*private static Context createRemoteEjbContext(String host, String port) throws NamingException {
 		Hashtable<Object, Object> props = new Hashtable<Object, Object>();
 		props.put(Context.INITIAL_CONTEXT_FACTORY, "org.jboss.naming.remote.client.InitialContextFactory");
 		props.put(Context.URL_PKG_PREFIXES, "org.jboss.ejb.client.naming");
@@ -45,5 +47,5 @@ public class Test {
         props.put("remote.connection.default.port", port);
  
         return new InitialContext(props);
-    }
+    }*/
 }
