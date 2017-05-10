@@ -14,9 +14,10 @@ import test.TestBeanRemote;
 public class Test {
 
 	public static void main(String[] args) throws Exception {
-		Context context = createRemoteEjbContext("localhost", "8843");
+		Context context = createRemoteEjbContext("localhost", "8080");
 		TestBeanRemote remote = (TestBeanRemote)context.lookup("ejb:/gg//TestBean!test.TestBeanRemote");
 		System.out.println(remote.testMe("Hello"));
+		System.out.println(remote.test1("X"));
 	}
 
 	/**

@@ -14,6 +14,10 @@ public class TestBean implements TestBeanRemote {
     public String testMe(String input) {
     	return "tested " + input;
     }
+    
+    public String test1(String input) {
+    	return "tested " + input;
+    }
 
 
 }

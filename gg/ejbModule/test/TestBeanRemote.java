@@ -6,5 +6,6 @@ import javax.ejb.Remote;
 public interface TestBeanRemote {
 	
 	public String testMe(String input);
+	public String test1(String input);
 
 }
