@@ -18,6 +18,10 @@ public class TestBean implements TestBeanRemote {
     public String test1(String input) {
     	return "tested " + input;
     }
+    
+    public int test2(int id) {
+    	return id;
+    }
 
 
 }

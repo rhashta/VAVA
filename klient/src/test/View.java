@@ -16,6 +16,8 @@ import javax.swing.JTextField;
 public class View extends JFrame implements ActionListener {
 	
 	private JButton login = new JButton("Prihlasenie");
+	private JButton show = new JButton("Zobraz rozvrh");
+	private JButton print = new JButton("Tlac rozvrh");
 	private JTextField id = new JTextField();
 	private JLabel desc = new JLabel("Zadaj ID");
 	
@@ -26,10 +28,14 @@ public class View extends JFrame implements ActionListener {
 		this.setSize(800,600);
 		
 		panel.add(id);
+		panel.add(show);
 		panel.add(desc);
 		panel.add(login);
+		panel.add(print);
 		
 		login.addActionListener(this);
+		print.addActionListener(this);
+		show.addActionListener(this);
 		
 		this.add(panel);
 		
@@ -38,6 +44,8 @@ public class View extends JFrame implements ActionListener {
 		desc.setBounds(40, 20, 100, 15);
 		id.setBounds(40, 40, 100, 25);
 		login.setBounds(40, 75, 100, 25);
+		show.setBounds(40, 110, 100, 25);
+		print.setBounds(40, 145, 100, 25);
 		
 	}
 
@@ -56,9 +64,19 @@ public class View extends JFrame implements ActionListener {
 			} catch (NamingException e1) {
 				e1.printStackTrace();
 			}
-			System.out.println(remote.testMe("Hello"));
+			System.out.println(remote.test2(getId()));
+			String text = remote.testMe("Hello");
+			System.out.println(text);
 			System.out.println(remote.test1("X"));
 		}
+		
+        if (e.getSource() == show)  {
+			
+		}
+        
+        if (e.getSource() == print) {
+        	
+        }
 		
 	}
 	
@@ -81,5 +99,9 @@ public class View extends JFrame implements ActionListener {
  
         return new InitialContext(props);
     }
+	
+	public int getId(){
+		return Integer.parseInt(id.getText());
+	}
 
 }
