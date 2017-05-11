@@ -1,8 +1,8 @@
-package bean;
+package sk.fiit.ais.beans;
 
 import javax.ejb.Remote;
 
-import model.Student;
+import sk.fiit.ais.entity.Student;
 
 @Remote
 public interface LoginRemote {

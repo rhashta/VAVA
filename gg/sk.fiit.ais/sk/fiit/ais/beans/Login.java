@@ -1,4 +1,4 @@
-package bean;
+package sk.fiit.ais.beans;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 
 import javax.ejb.Stateless;
 
-import model.Student;
+import sk.fiit.ais.entity.Student;
 
 /**
  * Session Bean implementation class Login
@@ -26,8 +26,8 @@ public class Login implements LoginRemote {
 	    String url = "jdbc:postgresql://localhost:5432/postgres";
 	    String driver = "org.postgresql.driver";
 
-	    String userName = "sa";
-	    String password = "sa";
+	    String userName = "postgres";
+	    String password = "vava";
 	    
 	    try {
     		Class.forName(driver).newInstance();

@@ -1,4 +1,4 @@
-package model;
+package sk.fiit.ais.entity;
 
 import java.io.Serializable;
 

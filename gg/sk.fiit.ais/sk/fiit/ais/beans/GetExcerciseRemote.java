@@ -1,10 +1,10 @@
-package bean;
+package sk.fiit.ais.beans;
 
 import java.util.List;
 
 import javax.ejb.Remote;
 
-import model.Excercise;
+import sk.fiit.ais.entity.Excercise;
 
 @Remote
 public interface GetExcerciseRemote {
