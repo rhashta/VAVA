@@ -4,8 +4,7 @@ import java.io.Serializable;
 
 public class Excercise implements Serializable{
 	
-	private int id;
-	private int subject_id;
+	private String subject_name;
 	private int startTime;
     private int length;
     
@@ -13,20 +12,13 @@ public class Excercise implements Serializable{
     	
     }
     
-       public int getId() {
-	      return id;
-	   }
-
-	   public void setId(int id) {
-	      this.id = id;
-	   }
 	   
-	   public int getSubjectId() {
-		  return subject_id;
+	   public String getSubjectName() {
+		  return subject_name;
 	   }
 
-	   public void setSubjectId(int subject_id) {
-		  this.subject_id = id;
+	   public void setSubjectName(String subject_name) {
+		  this.subject_name = subject_name;
 	   }	   
 	   
 	   public int getStartTime(){

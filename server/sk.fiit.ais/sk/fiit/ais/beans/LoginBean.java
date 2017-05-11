@@ -13,7 +13,7 @@ import sk.fiit.ais.entity.Student;
  * Session Bean implementation class Login
  */
 @Stateless
-public class Login implements LoginRemote {
+public class LoginBean implements LoginBeanRemote {
 	
 	
 	public Student logOn(int id) throws SQLException {

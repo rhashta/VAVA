@@ -5,11 +5,17 @@ import java.sql.DriverManager;
 
 public class db_connection {
 	
+	private static Connection con = setConnection();
 	
-	public static Connection GetConnection(){
+	
+	public static Connection getConnection(){
 		
+		return con;
+	}
+	
+	private static Connection setConnection() {
 		Connection con = null;
-	    String url = "jdbc:postgresql://localhost:5432/postgres";
+	    String url = "jdbc:postgresql://localhost:5432/VAVA";
 	    String driver = "org.postgresql.driver";
 
 	    String userName = "postgres";

@@ -7,7 +7,7 @@ import javax.ejb.Remote;
 import sk.fiit.ais.entity.Student;
 
 @Remote
-public interface LoginRemote {
+public interface LoginBeanRemote {
 	
 	public Student logOn(int id) throws SQLException;
 	

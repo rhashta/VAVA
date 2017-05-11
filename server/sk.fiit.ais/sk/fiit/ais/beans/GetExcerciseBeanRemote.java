@@ -7,8 +7,8 @@ import javax.ejb.Remote;
 import sk.fiit.ais.entity.Excercise;
 
 @Remote
-public interface GetExcerciseRemote {
+public interface GetExcerciseBeanRemote {
 	
-	public List<Excercise> logOn(int id);
+	public List<Excercise> getData(int id);
 
 }
