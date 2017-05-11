@@ -1,0 +1,5 @@
+package sk.fiit.ais.connection;
+
+public class db_connection {
+
+}
