@@ -1,3 +1,4 @@
+<<<<<<< HEAD:.metadata/.plugins/org.eclipse.core.resources/.history/c6/3085e25ed13500171adee34d64c3bcfe
 package test;
 
 import javax.ejb.Remote;
@@ -9,3 +10,17 @@ public interface TestBeanRemote {
 	public String test1(String input);
 
 }
+=======
+package test;
+
+import javax.ejb.Remote;
+
+@Remote
+public interface TestBeanRemote {
+	
+	public String testMe(String input);
+	public String test1(String input);
+	public int test2(int id);
+
+}
+>>>>>>> origin/master:gg/ejbModule/test/TestBeanRemote.java

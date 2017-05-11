@@ -5,7 +5,7 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
-import bean.TestBeanRemote;
+import test.TestBeanRemote;
 
 /**
  * Jednoducha trieda pre otestovanie volania server side biznis logiky v podobe EJB stateless session beany

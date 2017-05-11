@@ -1,3 +1,4 @@
+<<<<<<< HEAD:.metadata/.plugins/org.eclipse.core.resources/.history/dd/e0103c74d13500171adee34d64c3bcfe
 package test;
 
 import javax.ejb.Stateless;
@@ -21,3 +22,32 @@ public class TestBean implements TestBeanRemote {
 
 
 }
+=======
+package test;
+
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class TestBean
+ */
+@Stateless
+public class TestBean implements TestBeanRemote {
+	
+	/**
+	 * Biznis logika ktora vrati rozsireny textovy retazec
+	 */
+    public String testMe(String input) {
+    	return "tested " + input;
+    }
+    
+    public String test1(String input) {
+    	return "tested " + input;
+    }
+    
+    public int test2(int id) {
+    	return id;
+    }
+
+
+}
+>>>>>>> origin/master:gg/ejbModule/test/TestBean.java
