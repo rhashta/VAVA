@@ -70,7 +70,7 @@ public class View extends JFrame implements ActionListener {
 			LoginBeanRemote remote = null;
 			
 			try {
-				remote = (LoginBeanRemote)context.lookup("ejb:/server//LoginBean!sk.fiit.ais.beans.LoginBeanRemote");
+				remote = (LoginBeanRemote)context.lookup("ejb:/server//sk.fiit.ais!beans.LoginBeanRemote");
 			} catch (NamingException e1) {
 				e1.printStackTrace();
 			}
