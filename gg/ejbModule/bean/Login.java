@@ -17,8 +17,6 @@ public class Login implements LoginRemote {
 	
 	
 	public Student logOn(int id) {
-    	
-		
 		
     	return connection(id);
     }
@@ -40,7 +38,7 @@ public class Login implements LoginRemote {
     		
     		ResultSet rs = st.executeQuery();
     		
-    		if (!rs.isLast())
+    		if (rs.isLast())
     		{
     			Student student = new Student();
     			
