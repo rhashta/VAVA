@@ -1,0 +1,15 @@
+1494455940076	Rename package 'test'
+1494456013880	Move compilation units
+1494456236014	Delete elements
+1494457799774	Delete element
+1494486568881	Rename source folder 'ejbModule'
+1494486595753	Rename package 'bean'
+1494486611881	Rename package 'model'
+1494489889413	Rename type 'Login'
+1494489896365	Rename type 'LoginRemote'
+1494489901871	Rename type 'GetExcercise'
+1494489907092	Rename type 'GetExcerciseRemote'
+1494490740826	Move 'META-INF' to 'ejbModule'
+1494490763326	Move folder
+1494490961418	Move package
+1494492106372	Rename source folder 'sk.fiit.ais'

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="bean.Login"/>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="model.Student"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="sk.fiit.ais.connection.db_connection"/>
+<fullyQualifiedTypeName name="java.rmi.server.RemoteCall"/>
+<fullyQualifiedTypeName name="sk.fiit.ais.remote.RemoteConnetion"/>
+<fullyQualifiedTypeName name="sk.fiit.ais.beans.LoginBeanRemote"/>
+<fullyQualifiedTypeName name="sk.fiit.ais.entity.Student"/>
+</qualifiedTypeNameHistroy>

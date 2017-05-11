@@ -1,0 +1,5 @@
+package sk.fiit.ais.remote;
+
+public class RemoteConnetion {
+
+}
